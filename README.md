@@ -4,7 +4,7 @@ This is a **full stack web application** built using the **MERN Stack**. It feat
 
 ---
 
-## 🛠️ Tech Stack:
+##  Tech Stack:
 - **Frontend:** React.js  
 - **Backend:** Node.js + Express.js  
 - **Database:** MongoDB Atlas  
@@ -12,7 +12,7 @@ This is a **full stack web application** built using the **MERN Stack**. It feat
 
 ---
 
-## ✨ Features:
+##  Features:
 - User-friendly contact form with the following fields:
   - Name
   - Email
@@ -32,13 +32,13 @@ This is a **full stack web application** built using the **MERN Stack**. It feat
 
 ### to Run the Project:-
 
- Backend:
+### Backend:
 
 cd backend
 npm install
 npm start
 
-Frontend:
+### Frontend:
 
 cd frontend
 npm install
