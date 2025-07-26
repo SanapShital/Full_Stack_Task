@@ -7,11 +7,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+require('dotenv').config(); 
 
-mongoose.connect("mongodb+srv://sanapshital:sdfg234@fullstacktask.cvbeehr.mongodb.net/?retryWrites=true&w=majority&appName=FullStackTask")
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.log(err));
-
+  .catch((err) => console.log("Error connecting to MongoDB:", err));
 
 const Contact = mongoose.model("Contact", new mongoose.Schema({
   name: String,
